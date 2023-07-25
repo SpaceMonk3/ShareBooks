@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { useSession, signIn, signOut } from "next-auth/react"
-import Nav from '@/components/nav'
+import Nav from '@/components/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
