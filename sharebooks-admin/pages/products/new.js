@@ -7,7 +7,7 @@ export default function NewProduct(){
     const [price, setPrice] = useState('');
 
     function createProduct(){
-        
+
     }
     return(
         <Layout>
