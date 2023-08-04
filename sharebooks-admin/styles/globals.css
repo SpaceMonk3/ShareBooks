@@ -22,3 +22,15 @@ label{
 .button-primary{
   @apply bg-blue-900 text-white px-4 py-1 rounded-md;
 }
+
+table.basic{
+  @apply w-full;
+}
+
+table.basic thead tr td{
+  @apply bg-blue-100;
+}
+
+table.basic tr td{
+  @apply border border-blue-200 p-1;
+}
