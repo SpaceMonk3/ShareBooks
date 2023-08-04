@@ -26,7 +26,9 @@ export default function Products() {
                     {products.map(products => (
                         <tr>
                             <td>{products.title}</td>
-                            <td></td>
+                            <td><Link href={'/products/'+ products._id}> 
+                                Edit 
+                            </Link></td>
                         </tr>
                     ))}
                 </tbody>
